@@ -24,4 +24,10 @@ mahasiswa::mahasiswa(){}
     nama = pnama;
  }
 
+ mahasiswa::mahasiswa(int inim,string pnama){
+    nim = inim;
+    nama = pnama;
+ }
+
  
+
