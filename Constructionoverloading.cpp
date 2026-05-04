@@ -29,5 +29,10 @@ mahasiswa::mahasiswa(){}
     nama = pnama;
  }
 
- 
+ void mahasiswa::cetak(){
 
+    cout << "nim" << nim << endl;
+    cout << "nama" << nama << endl;
+ }
+
+ 
