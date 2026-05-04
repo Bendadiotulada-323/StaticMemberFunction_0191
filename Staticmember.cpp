@@ -11,9 +11,17 @@ class mahasiswa{
     void setID();
     void printall();
 
-    
+
     mahasiswa (string pnama) :nama(pnama){
         setID();
     }
 };
+
+int mahasiswa::nim = 5;
+
+void::mahasiswa::setID(){
+        id = ++nim;
+};
+
+
 
