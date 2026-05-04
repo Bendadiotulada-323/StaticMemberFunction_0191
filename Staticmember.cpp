@@ -8,4 +8,11 @@ class mahasiswa{
         int id;
         string nama;
 
-    
+    void setID();
+    void printall();
+
+    mahasiswa (string pnama) :nama(pnama){
+        setID();
+    }
+};
+
