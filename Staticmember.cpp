@@ -11,6 +11,7 @@ class mahasiswa{
     void setID();
     void printall();
 
+    
     mahasiswa (string pnama) :nama(pnama){
         setID();
     }
